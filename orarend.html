@@ -4,6 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Óra rend</title>
+    <style>
+        table, th, td {
+          border:3px solid  rgb(148, 148, 148);
+          text-align: center;
+        }
+        tr.nap{
+            background-color: green;
+            color: white;
+        }
+        tr{
+            background-color: rgb(148, 148, 148);
+            color: white;
+        }
+        tr:hover {background-color: rgb(80, 255, 103);}
+    </style>
 </head>
 <body>
     <nav>
@@ -11,15 +26,54 @@
         <a href="tbla.html">LISTÁK</a>
         <a href="orarend.html">ÓRAREND</a>
     </nav>
-    <table>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<table>
+<tr class="nap">
+    <td>Hetfő</td>
+    <td>Kedd</td>
+    <td>Szerda</td>
+    <td>Csütörtök</td>
+    <td>Péntek</td>
 </tr>
-    </table>
+<tr>
+    <td>Magyar</td>
+    <td rowspan="2">Angol nyelv</td>
+    <td>Osztályfőnöki</td>
+    <td rowspan="2">Angol nyelv</td>
+    <td></td>
+</tr>
+<tr>
+    <td>Testnevelés</td>
+    <td>Angol nyelv</td>
+    <td>Komplex</td>
+</tr>
+<tr>
+    <td>Matek</td>
+    <td>Történelem</td>
+    <td>IKT. Project munka</td>
+    <td rowspan="3">Informatika és távközlés</td>
+    <td rowspan="2">Programozási alapok</td>
+</tr>
+<tr>
+    <td>Komplex</td>
+    <td>IKT. Project munka</td>
+    <td>Történelem</td>
+</tr>
+<tr>
+    <td rowspan="2">Digitális kultúra</td>
+    <td rowspan="2">Magyar nyelv</td>
+    <td>Matek</td>
+    <td rowspan="2">Matek</td>
+</tr>
+<tr>
+    <td rowspan="2">Honvédelem</td>
+    <td rowspan="2">Testnevelés</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+</table>
     
 </body>
 </html>
